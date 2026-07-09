@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EnforceHTTPSOnly",
+      "Effect": "Deny",
+      "Principal": "*",
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::project5-data-258927109117",
+        "arn:aws:s3:::project5-data-258927109117/*"
+      ],
+      "Condition": {
+        "Bool": {
+          "aws:SecureTransport": "false"
+        }
+      }
+    },
+    {
+      "Sid": "AllowS3Select",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::258927109117:user/D_admin"
+      },
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion"
+      ],
+      "Resource": "arn:aws:s3:::project5-data-258927109117/analytics/employees.csv"
+    }
+  ]
+}
