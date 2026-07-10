@@ -32,7 +32,7 @@ S3 Batch Operations
 S3 Analytics
 (Select, Storage Lens, Intelligent-Tiering)
 ---
-> Insert screenshot showing all created buckets.
+> image of Architecture
 
 ![Architecture Diagram](images/architecture/architecture-diagram.png)
 
@@ -83,7 +83,7 @@ S3 can serve HTML, CSS, JavaScript files directly as a website without any web s
 4. CloudFront caches fewer S3 requests
 5. AWS Shield Standard built-in
 
-> Insert screenshot showing all created buckets.
+> Image of cloud front webpage
 
 ![webpage-img](images/website/cloudFront-webpage.png)
 
