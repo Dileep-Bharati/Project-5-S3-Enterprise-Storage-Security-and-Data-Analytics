@@ -34,9 +34,7 @@ S3 Analytics
 ---
 > Insert screenshot showing all created buckets.
 
-```text
-images/architecture/architecture diagram.png
-```
+![Architecture Diagram](images/architecture/architecture-diagram.png)
 
 ---
 
@@ -87,9 +85,7 @@ S3 can serve HTML, CSS, JavaScript files directly as a website without any web s
 
 > Insert screenshot showing all created buckets.
 
-```text
-images/website/cloudFront webpage.png
-```
+![webpage-img](images/website/cloudFront-webpage.png)
 
 ---
 
