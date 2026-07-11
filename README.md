@@ -6,31 +6,18 @@ The first step establishes the storage foundation for the project by creating mu
  
  Here is the plan What we're building:
 
-Static Website
-↓
-S3 + CloudFront (CDN + HTTPS)
-↓
-S3 Security Layer
-(Bucket Policies, ACLs, Public Access Block)
-↓
-S3 Lifecycle Management
-(Standard → IA → Glacier)
-↓
-Cross-Region Replication (CRR)
-(Mumbai → Singapore)
-↓
-S3 Event Notifications
-(S3 → Lambda → Processing)
-↓
-Advanced Encryption
-(SSE-S3, SSE-KMS, SSE-C, Client-Side)
-↓
-Object Lock (WORM Compliance)
-↓
-S3 Batch Operations
-↓
-S3 Analytics
-(Select, Storage Lens, Intelligent-Tiering)
+| Phase | Description |
+|-------|-------------|
+| 🌐 Website | Static Website Hosting |
+| ☁️ CDN | S3 + CloudFront (HTTPS) |
+| 🔐 Security | Bucket Policies, ACLs, Public Access Block |
+| 💰 Lifecycle | Standard → IA → Glacier |
+| 🌍 Replication | Mumbai → Singapore |
+| ⚡ Events | S3 → Lambda |
+| 🔒 Encryption | SSE-S3, SSE-KMS, SSE-C, Client-Side |
+| 🛡️ Compliance | Object Lock |
+| 📦 Operations | Batch Operations |
+| 📊 Analytics | S3 Select, Storage Lens, Intelligent Tiering |
 ---
 > image of Architecture
 
