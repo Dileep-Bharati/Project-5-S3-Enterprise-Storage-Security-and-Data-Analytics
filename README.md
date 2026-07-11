@@ -28,16 +28,16 @@ The first step establishes the storage foundation for the project by creating mu
 ## 🛠️ Implementation
 
 Steps we will follow:
-●​ Step 1 — Create S3 Buckets
-●​ Step 2 — Static Website Hosting with CloudFront
-●​ Step 3 — Bucket Policies and Access Control
-●​ Step 4 — Lifecycle Management and Storage Classes
-●​ Step 5 — Cross-Region Replication (CRR)
-●​ Step 6 — S3 Event Notifications with Lambda
-●​ Step 7 — Advanced Encryption (SSE-S3, SSE-KMS, SSE-C)
-●​ Step 8 — Object Lock (WORM)
-●​ Step 9 — S3 Batch Operations
-●​ Step 10 — S3 Analytics (Select, Storage Lens, Intelligent-Tiering)
+- Step 1 — Create S3 Buckets
+-​ Step 2 — Static Website Hosting with CloudFront
+- Step 3 — Bucket Policies and Access Control
+-​ Step 4 — Lifecycle Management and Storage Classes
+-​ Step 5 — Cross-Region Replication (CRR)
+-​ Step 6 — S3 Event Notifications with Lambda
+- Step 7 — Advanced Encryption (SSE-S3, SSE-KMS, SSE-C)
+-​ Step 8 — Object Lock (WORM)
+-​ Step 9 — S3 Batch Operations
+-​ Step 10 — S3 Analytics (Select, Storage Lens, Intelligent-Tiering)
 
 ---
 
