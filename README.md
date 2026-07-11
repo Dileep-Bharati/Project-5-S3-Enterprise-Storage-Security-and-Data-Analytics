@@ -122,7 +122,7 @@ Happens asynchronously within seconds to minutes.
 
 > Replication img
 
-![replication image](images/steps image/replication-img.png)
+![replication-image](images/steps-image/replication-img.png)
 
 ---
 
@@ -181,7 +181,7 @@ What is S3 Batch Operations: Perform large-scale operations on billions of S3 ob
 
 > Batch Operation
 
-![Batch Op] (images/steps image/batch-op.png)
+![Batch-Op](images/steps-image/batch-op.png)
 
 ---
 
