@@ -121,6 +121,7 @@ uploaded to your source bucket into a destination bucket in a different AWS regi
 Happens asynchronously within seconds to minutes.
 
 > Replication img
+
 ![replication image](images/steps image/replication-img.png)
 
 ---
@@ -179,6 +180,7 @@ Why use Object Lock:
 What is S3 Batch Operations: Perform large-scale operations on billions of S3 objects with a single request. Instead of writing a script that loops through objects one by one — Batch Operations handles it in parallel at massive scale.
 
 > Batch Operation
+
 ![Batch Op] (images/steps image/batch-op.png)
 
 ---
